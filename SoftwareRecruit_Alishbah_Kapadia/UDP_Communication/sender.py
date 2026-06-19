@@ -6,7 +6,7 @@ port = 5555
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 sock.sendto(
-    "Hello from sender".encode(),
+    "Hello!".encode(),
     (targIP, port)
 )
 
